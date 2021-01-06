@@ -1,0 +1,4386 @@
+@font-face {
+  font-family: 'maria';
+  src:  url('fonts/maria.eot?ga7mav');
+  src:  url('fonts/maria.eot?ga7mav#iefix') format('embedded-opentype'),
+    url('fonts/maria.ttf?ga7mav') format('truetype'),
+    url('fonts/maria.woff?ga7mav') format('woff'),
+    url('fonts/maria.svg?ga7mav#maria') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="mari-"], [class*=" mari-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'maria' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mari-adobeaftereffects:before {
+  content: "\e900";
+  color: #d291ff;
+}
+.mari-airplayaudio:before {
+  content: "\e901";
+}
+.mari-angellist:before {
+  content: "\e902";
+}
+.mari-apple:before {
+  content: "\e903";
+  color: #999;
+}
+.mari-at-and-t:before {
+  content: "\e904";
+  color: #00a8e0;
+}
+.mari-azurepipelines:before {
+  content: "\e905";
+  color: #2560e0;
+}
+.mari-bing:before {
+  content: "\e906";
+  color: #008373;
+}
+.mari-bootstrap:before {
+  content: "\e907";
+  color: #563d7c;
+}
+.mari-cakephp:before {
+  content: "\e908";
+  color: #d33c43;
+}
+.mari-cirrusci:before {
+  content: "\e909";
+}
+.mari-codecov:before {
+  content: "\e90a";
+  color: #f01f7a;
+}
+.mari-composer:before {
+  content: "\e90b";
+  color: #885630;
+}
+.mari-crunchyroll:before {
+  content: "\e90c";
+  color: #f47521;
+}
+.mari-debian:before {
+  content: "\e90d";
+  color: #a81d33;
+}
+.mari-digg:before {
+  content: "\e90e";
+}
+.mari-dot-net:before {
+  content: "\e90f";
+  color: #5c2d91;
+}
+.mari-elastic:before {
+  content: "\e910";
+  color: #005571;
+}
+.mari-epel:before {
+  content: "\e911";
+  color: #fc0000;
+}
+.mari-epicgames:before {
+  content: "\e912";
+}
+.mari-epson:before {
+  content: "\e913";
+  color: #039;
+}
+.mari-esea:before {
+  content: "\e914";
+  color: #0e9648;
+}
+.mari-eslint:before {
+  content: "\e915";
+  color: #4b32c3;
+}
+.mari-ethereum:before {
+  content: "\e916";
+}
+.mari-etsy:before {
+  content: "\e917";
+  color: #f16521;
+}
+.mari-eventbrite:before {
+  content: "\e918";
+  color: #f05537;
+}
+.mari-eventstore:before {
+  content: "\e919";
+  color: #5ab552;
+}
+.mari-evernote:before {
+  content: "\e91a";
+  color: #00a82d;
+}
+.mari-everplaces:before {
+  content: "\e91b";
+  color: #fa4b32;
+}
+.mari-evry:before {
+  content: "\e91c";
+  color: #063a54;
+}
+.mari-exercism:before {
+  content: "\e91d";
+  color: #009cab;
+}
+.mari-expertsexchange:before {
+  content: "\e91e";
+  color: #00aae7;
+}
+.mari-expo:before {
+  content: "\e91f";
+}
+.mari-eyeem:before {
+  content: "\e920";
+}
+.mari-f-droid:before {
+  content: "\e921";
+  color: #1976d2;
+}
+.mari-f-secure:before {
+  content: "\e922";
+  color: #00baff;
+}
+.mari-facebook1:before {
+  content: "\e923";
+  color: #1877f2;
+}
+.mari-faceit:before {
+  content: "\e924";
+  color: #f50;
+}
+.mari-fandango:before {
+  content: "\e925";
+  color: #ff7300;
+}
+.mari-favro:before {
+  content: "\e926";
+  color: #512da8;
+}
+.mari-feathub:before {
+  content: "\e927";
+  color: #9b9b9b;
+}
+.mari-fedora:before {
+  content: "\e928";
+  color: #294172;
+}
+.mari-feedly:before {
+  content: "\e929";
+  color: #2bb24c;
+}
+.mari-fidoalliance:before {
+  content: "\e92a";
+  color: #ffbf3b;
+}
+.mari-figma:before {
+  content: "\e92b";
+  color: #f24e1e;
+}
+.mari-filezilla:before {
+  content: "\e92c";
+  color: #bf0000;
+}
+.mari-firebase:before {
+  content: "\e92d";
+  color: #ffca28;
+}
+.mari-fitbit:before {
+  content: "\e92e";
+  color: #00b0b9;
+}
+.mari-fiverr:before {
+  content: "\e92f";
+  color: #1dbf73;
+}
+.mari-flask:before {
+  content: "\e930";
+}
+.mari-flattr1:before {
+  content: "\e931";
+}
+.mari-flickr1:before {
+  content: "\e932";
+  color: #0063dc;
+}
+.mari-flipboard:before {
+  content: "\e933";
+  color: #e12828;
+}
+.mari-floatplane:before {
+  content: "\e934";
+  color: #00aeef;
+}
+.mari-flutter:before {
+  content: "\e935";
+  color: #02569b;
+}
+.mari-fnac:before {
+  content: "\e936";
+  color: #e1a925;
+}
+.mari-formstack:before {
+  content: "\e937";
+  color: #21b573;
+}
+.mari-fossa:before {
+  content: "\e938";
+  color: #90a1b8;
+}
+.mari-fossilscm:before {
+  content: "\e939";
+  color: #548294;
+}
+.mari-foursquare1:before {
+  content: "\e93a";
+  color: #f94877;
+}
+.mari-framer:before {
+  content: "\e93b";
+  color: #05f;
+}
+.mari-freebsd:before {
+  content: "\e93c";
+  color: #ab2b28;
+}
+.mari-freecodecamp:before {
+  content: "\e93d";
+  color: #006400;
+}
+.mari-fujifilm:before {
+  content: "\e93e";
+  color: #ed1a3a;
+}
+.mari-fujitsu:before {
+  content: "\e93f";
+  color: #f00;
+}
+.mari-furaffinity:before {
+  content: "\e940";
+  color: #faaf3a;
+}
+.mari-furrynetwork:before {
+  content: "\e941";
+  color: #2e75b4;
+}
+.mari-garmin:before {
+  content: "\e942";
+  color: #007cc3;
+}
+.mari-gatsby:before {
+  content: "\e943";
+  color: #639;
+}
+.mari-gauges:before {
+  content: "\e944";
+  color: #2fa66a;
+}
+.mari-genius:before {
+  content: "\e945";
+  color: #ffff64;
+}
+.mari-gentoo:before {
+  content: "\e946";
+  color: #54487a;
+}
+.mari-geocaching:before {
+  content: "\e947";
+  color: #00874d;
+}
+.mari-gerrit:before {
+  content: "\e948";
+  color: #eee;
+}
+.mari-ghost:before {
+  content: "\e949";
+  color: #738a94;
+}
+.mari-gimp:before {
+  content: "\e94a";
+  color: #5c5543;
+}
+.mari-git1:before {
+  content: "\e94b";
+  color: #f05032;
+}
+.mari-gitea:before {
+  content: "\e94c";
+  color: #609926;
+}
+.mari-github1:before {
+  content: "\e94d";
+}
+.mari-gitlab:before {
+  content: "\e94e";
+  color: #fca121;
+}
+.mari-gitpod:before {
+  content: "\e94f";
+  color: #1aa6e4;
+}
+.mari-gitter:before {
+  content: "\e950";
+  color: #ed1965;
+}
+.mari-glassdoor:before {
+  content: "\e951";
+  color: #0caa41;
+}
+.mari-glitch:before {
+  content: "\e952";
+  color: #33f;
+}
+.mari-gmail:before {
+  content: "\e953";
+  color: #d14836;
+}
+.mari-gnome:before {
+  content: "\e954";
+  color: #4a86cf;
+}
+.mari-gnu:before {
+  content: "\e955";
+  color: #a42e2b;
+}
+.mari-gnuicecat:before {
+  content: "\e956";
+  color: #002f5b;
+}
+.mari-gnuprivacyguard:before {
+  content: "\e957";
+  color: #0093dd;
+}
+.mari-gnusocial:before {
+  content: "\e958";
+  color: #a22430;
+}
+.mari-go:before {
+  content: "\e959";
+  color: #00add8;
+}
+.mari-godotengine:before {
+  content: "\e95a";
+  color: #478cbf;
+}
+.mari-gog-dot-com:before {
+  content: "\e95b";
+  color: #86328a;
+}
+.mari-goldenline:before {
+  content: "\e95c";
+  color: #f1b92b;
+}
+.mari-goodreads:before {
+  content: "\e95d";
+  color: #630;
+}
+.mari-google1:before {
+  content: "\e95e";
+  color: #4285f4;
+}
+.mari-googleads:before {
+  content: "\e95f";
+  color: #4285f4;
+}
+.mari-googleanalytics:before {
+  content: "\e960";
+  color: #ffc107;
+}
+.mari-googlechrome:before {
+  content: "\e961";
+  color: #4285f4;
+}
+.mari-googlecloud:before {
+  content: "\e962";
+  color: #4285f4;
+}
+.mari-googledrive:before {
+  content: "\e963";
+  color: #4285f4;
+}
+.mari-googlehangouts:before {
+  content: "\e964";
+  color: #0c9d58;
+}
+.mari-googlehangoutschat:before {
+  content: "\e965";
+  color: #00897b;
+}
+.mari-googlekeep:before {
+  content: "\e966";
+  color: #fb0;
+}
+.mari-googlepay:before {
+  content: "\e967";
+  color: #5f6368;
+}
+.mari-googleplay:before {
+  content: "\e968";
+  color: #607d8b;
+}
+.mari-googlepodcasts:before {
+  content: "\e969";
+  color: #4285f4;
+}
+.mari-googlescholar:before {
+  content: "\e96a";
+  color: #4885ed;
+}
+.mari-googlesearchconsole:before {
+  content: "\e96b";
+  color: #458cf5;
+}
+.mari-gov-dot-uk:before {
+  content: "\e96c";
+  color: #005ea5;
+}
+.mari-gradle:before {
+  content: "\e96d";
+}
+.mari-grafana:before {
+  content: "\e96e";
+  color: #f46800;
+}
+.mari-graphcool:before {
+  content: "\e96f";
+  color: #27ae60;
+}
+.mari-graphql:before {
+  content: "\e970";
+  color: #e10098;
+}
+.mari-grav:before {
+  content: "\e971";
+}
+.mari-gravatar:before {
+  content: "\e972";
+  color: #1e8cbe;
+}
+.mari-greenkeeper:before {
+  content: "\e973";
+  color: #00c775;
+}
+.mari-greensock:before {
+  content: "\e974";
+  color: #88ce02;
+}
+.mari-groovy:before {
+  content: "\e975";
+  color: #4298b8;
+}
+.mari-groupon:before {
+  content: "\e976";
+  color: #53a318;
+}
+.mari-gulp:before {
+  content: "\e977";
+  color: #da4648;
+}
+.mari-gumroad:before {
+  content: "\e978";
+  color: #36a9ae;
+}
+.mari-gumtree:before {
+  content: "\e979";
+  color: #72ef36;
+}
+.mari-gutenberg:before {
+  content: "\e97a";
+}
+.mari-habr:before {
+  content: "\e97b";
+  color: #77a2b6;
+}
+.mari-hackaday:before {
+  content: "\e97c";
+}
+.mari-hackerearth:before {
+  content: "\e97d";
+  color: #323754;
+}
+.mari-hackerone:before {
+  content: "\e97e";
+  color: #494649;
+}
+.mari-hackerrank:before {
+  content: "\e97f";
+  color: #2ec866;
+}
+.mari-hackhands:before {
+  content: "\e980";
+  color: #00acbd;
+}
+.mari-hackster:before {
+  content: "\e981";
+  color: #1bacf7;
+}
+.mari-happycow:before {
+  content: "\e982";
+  color: #7c4ec4;
+}
+.mari-hashnode:before {
+  content: "\e983";
+  color: #2962ff;
+}
+.mari-haskell:before {
+  content: "\e984";
+  color: #5d4f85;
+}
+.mari-hatenabookmark:before {
+  content: "\e985";
+  color: #00a4de;
+}
+.mari-haxe:before {
+  content: "\e986";
+  color: #ea8220;
+}
+.mari-helm:before {
+  content: "\e987";
+  color: #277a9f;
+}
+.mari-here:before {
+  content: "\e988";
+  color: #48dad0;
+}
+.mari-heroku:before {
+  content: "\e989";
+  color: #430098;
+}
+.mari-hexo:before {
+  content: "\e98a";
+  color: #0e83cd;
+}
+.mari-highly:before {
+  content: "\e98b";
+  color: #ff3c00;
+}
+.mari-hipchat:before {
+  content: "\e98c";
+  color: #0052cc;
+}
+.mari-hitachi:before {
+  content: "\e98d";
+  color: #e60027;
+}
+.mari-hockeyapp:before {
+  content: "\e98e";
+  color: #009ee1;
+}
+.mari-homeassistant:before {
+  content: "\e98f";
+  color: #41bdf5;
+}
+.mari-homify:before {
+  content: "\e990";
+  color: #7dcda3;
+}
+.mari-hootsuite:before {
+  content: "\e991";
+}
+.mari-houzz:before {
+  content: "\e992";
+  color: #4dbc15;
+}
+.mari-hp:before {
+  content: "\e993";
+  color: #0096d6;
+}
+.mari-html5:before {
+  content: "\e994";
+  color: #e34f26;
+}
+.mari-htmlacademy:before {
+  content: "\e995";
+  color: #302683;
+}
+.mari-huawei:before {
+  content: "\e996";
+  color: #f00;
+}
+.mari-hubspot:before {
+  content: "\e997";
+  color: #ff7a59;
+}
+.mari-hulu:before {
+  content: "\e998";
+  color: #3dbb3d;
+}
+.mari-humblebundle:before {
+  content: "\e999";
+  color: #cc2929;
+}
+.mari-hurriyetemlak:before {
+  content: "\e99a";
+  color: #e02826;
+}
+.mari-hypothesis:before {
+  content: "\e99b";
+  color: #bd1c2b;
+}
+.mari-iata:before {
+  content: "\e99c";
+  color: #004e81;
+}
+.mari-ibm:before {
+  content: "\e99d";
+  color: #054ada;
+}
+.mari-icloud:before {
+  content: "\e99e";
+  color: #3693f3;
+}
+.mari-icomoon:before {
+  content: "\e99f";
+  color: #825794;
+}
+.mari-icon:before {
+  content: "\e9a0";
+  color: #31b8bb;
+}
+.mari-iconjar:before {
+  content: "\e9a1";
+  color: #16a5f3;
+}
+.mari-icq:before {
+  content: "\e9a2";
+  color: #7ebd00;
+}
+.mari-ideal:before {
+  content: "\e9a3";
+  color: #c06;
+}
+.mari-ifixit:before {
+  content: "\e9a4";
+  color: #0071ce;
+}
+.mari-imdb:before {
+  content: "\e9a5";
+  color: #e6b91e;
+}
+.mari-imgur:before {
+  content: "\e9a6";
+  color: #1bb76e;
+}
+.mari-indeed:before {
+  content: "\e9a7";
+  color: #2164f3;
+}
+.mari-influxdb:before {
+  content: "\e9a8";
+  color: #22adf6;
+}
+.mari-inkscape:before {
+  content: "\e9a9";
+}
+.mari-instacart:before {
+  content: "\e9aa";
+  color: #43b02a;
+}
+.mari-instagram1:before {
+  content: "\e9ab";
+  color: #e4405f;
+}
+.mari-instapaper:before {
+  content: "\e9ac";
+}
+.mari-intel:before {
+  content: "\e9ad";
+  color: #0071c5;
+}
+.mari-intellijidea:before {
+  content: "\e9ae";
+}
+.mari-intercom:before {
+  content: "\e9af";
+  color: #1f8ded;
+}
+.mari-internetarchive:before {
+  content: "\e9b0";
+}
+.mari-internetexplorer:before {
+  content: "\e9b1";
+  color: #0076d6;
+}
+.mari-invision:before {
+  content: "\e9b2";
+  color: #f36;
+}
+.mari-invoiceninja:before {
+  content: "\e9b3";
+}
+.mari-ionic:before {
+  content: "\e9b4";
+  color: #3880ff;
+}
+.mari-ios:before {
+  content: "\e9b5";
+}
+.mari-ipfs:before {
+  content: "\e9b6";
+  color: #65c2cb;
+}
+.mari-issuu:before {
+  content: "\e9b7";
+  color: #f36d5d;
+}
+.mari-itch-dot-io:before {
+  content: "\e9b8";
+  color: #fa5c5c;
+}
+.mari-itunes:before {
+  content: "\e9b9";
+  color: #fb5bc5;
+}
+.mari-jabber:before {
+  content: "\e9ba";
+  color: #c00;
+}
+.mari-java:before {
+  content: "\e9bb";
+  color: #007396;
+}
+.mari-javascript:before {
+  content: "\e9bc";
+  color: #f7df1e;
+}
+.mari-jekyll:before {
+  content: "\e9bd";
+  color: #c00;
+}
+.mari-jenkins:before {
+  content: "\e9be";
+  color: #d24939;
+}
+.mari-jest:before {
+  content: "\e9bf";
+  color: #c21325;
+}
+.mari-jet:before {
+  content: "\e9c0";
+  color: #fbba00;
+}
+.mari-jetbrains:before {
+  content: "\e9c1";
+}
+.mari-jinja:before {
+  content: "\e9c2";
+  color: #b41717;
+}
+.mari-jira:before {
+  content: "\e9c3";
+}
+.mari-joomla1:before {
+  content: "\e9c4";
+  color: #5091cd;
+}
+.mari-jquery:before {
+  content: "\e9c5";
+  color: #0769ad;
+}
+.mari-jsdelivr:before {
+  content: "\e9c6";
+  color: #e84d3d;
+}
+.mari-jsfiddle:before {
+  content: "\e9c7";
+  color: #4679a4;
+}
+.mari-json:before {
+  content: "\e9c8";
+}
+.mari-jupyter:before {
+  content: "\e9c9";
+  color: #f37626;
+}
+.mari-justgiving:before {
+  content: "\e9ca";
+  color: #ad29b6;
+}
+.mari-kaggle:before {
+  content: "\e9cb";
+  color: #20beff;
+}
+.mari-kaios:before {
+  content: "\e9cc";
+  color: #6f02b5;
+}
+.mari-kaspersky:before {
+  content: "\e9cd";
+  color: #009982;
+}
+.mari-kentico:before {
+  content: "\e9ce";
+  color: #f05a22;
+}
+.mari-keras:before {
+  content: "\e9cf";
+  color: #d00000;
+}
+.mari-keybase:before {
+  content: "\e9d0";
+  color: #33a0ff;
+}
+.mari-keycdn:before {
+  content: "\e9d1";
+  color: #3686be;
+}
+.mari-khanacademy:before {
+  content: "\e9d2";
+  color: #14bf96;
+}
+.mari-kibana:before {
+  content: "\e9d3";
+  color: #005571;
+}
+.mari-kickstarter:before {
+  content: "\e9d4";
+  color: #2bde73;
+}
+.mari-kik:before {
+  content: "\e9d5";
+  color: #82bc23;
+}
+.mari-kirby:before {
+  content: "\e9d6";
+  color: #ff0100;
+}
+.mari-klout:before {
+  content: "\e9d7";
+  color: #e44600;
+}
+.mari-known:before {
+  content: "\e9d8";
+}
+.mari-ko-fi:before {
+  content: "\e9d9";
+  color: #f16061;
+}
+.mari-kodi:before {
+  content: "\e9da";
+  color: #17b2e7;
+}
+.mari-koding:before {
+  content: "\e9db";
+  color: #00b057;
+}
+.mari-kotlin:before {
+  content: "\e9dc";
+  color: #0095d5;
+}
+.mari-krita:before {
+  content: "\e9dd";
+  color: #3babff;
+}
+.mari-kubernetes:before {
+  content: "\e9de";
+  color: #326ce5;
+}
+.mari-laravel:before {
+  content: "\e9df";
+  color: #ff2d20;
+}
+.mari-laravelhorizon:before {
+  content: "\e9e0";
+  color: #405263;
+}
+.mari-laravelnova:before {
+  content: "\e9e1";
+}
+.mari-last-dot-fm:before {
+  content: "\e9e2";
+  color: #d51007;
+}
+.mari-lastpass:before {
+  content: "\e9e3";
+  color: #d32d27;
+}
+.mari-latex:before {
+  content: "\e9e4";
+  color: #008080;
+}
+.mari-launchpad:before {
+  content: "\e9e5";
+  color: #f8c300;
+}
+.mari-leetcode:before {
+  content: "\e9e6";
+  color: #f89f1b;
+}
+.mari-lenovo:before {
+  content: "\e9e7";
+  color: #e2231a;
+}
+.mari-letsencrypt:before {
+  content: "\e9e8";
+  color: #003a70;
+}
+.mari-letterboxd:before {
+  content: "\e9e9";
+  color: #00d735;
+}
+.mari-lgtm:before {
+  content: "\e9ea";
+  color: #fff;
+}
+.mari-liberapay:before {
+  content: "\e9eb";
+  color: #f6c915;
+}
+.mari-librarything:before {
+  content: "\e9ec";
+}
+.mari-libreoffice1:before {
+  content: "\e9ed";
+  color: #18a303;
+}
+.mari-line:before {
+  content: "\e9ee";
+  color: #00c300;
+}
+.mari-linewebtoon:before {
+  content: "\e9ef";
+  color: #00d564;
+}
+.mari-linkedin1:before {
+  content: "\e9f0";
+  color: #0077b5;
+}
+.mari-linode:before {
+  content: "\e9f1";
+  color: #00a95c;
+}
+.mari-linux:before {
+  content: "\e9f2";
+  color: #fcc624;
+}
+.mari-linuxfoundation:before {
+  content: "\e9f3";
+  color: #009bee;
+}
+.mari-linuxmint:before {
+  content: "\e9f4";
+  color: #87cf3e;
+}
+.mari-livejournal:before {
+  content: "\e9f5";
+  color: #00b0ea;
+}
+.mari-livestream:before {
+  content: "\e9f6";
+  color: #cf202e;
+}
+.mari-llvm:before {
+  content: "\e9f7";
+}
+.mari-logstash:before {
+  content: "\e9f8";
+  color: #005571;
+}
+.mari-loop1:before {
+  content: "\e9f9";
+  color: #f29400;
+}
+.mari-lua:before {
+  content: "\e9fa";
+  color: #2c2d72;
+}
+.mari-lufthansa:before {
+  content: "\e9fb";
+  color: #05164d;
+}
+.mari-lumen:before {
+  content: "\e9fc";
+  color: #e74430;
+}
+.mari-lyft:before {
+  content: "\e9fd";
+  color: #ff00bf;
+}
+.mari-macys:before {
+  content: "\e9fe";
+  color: #e21a2c;
+}
+.mari-magento:before {
+  content: "\e9ff";
+  color: #ee672f;
+}
+.mari-magisk:before {
+  content: "\ea00";
+  color: #00af9c;
+}
+.mari-mail-dot-ru:before {
+  content: "\ea01";
+  color: #168de2;
+}
+.mari-mailchimp:before {
+  content: "\ea02";
+  color: #ffe01b;
+}
+.mari-makerbot:before {
+  content: "\ea03";
+  color: #ff1e0d;
+}
+.mari-manageiq:before {
+  content: "\ea04";
+  color: #ef2929;
+}
+.mari-manjaro:before {
+  content: "\ea05";
+  color: #35bf5c;
+}
+.mari-mapbox:before {
+  content: "\ea06";
+}
+.mari-markdown:before {
+  content: "\ea07";
+}
+.mari-marketo:before {
+  content: "\ea08";
+  color: #5c4c9f;
+}
+.mari-mastercard:before {
+  content: "\ea09";
+  color: #eb001b;
+}
+.mari-mastodon:before {
+  content: "\ea0a";
+  color: #3088d4;
+}
+.mari-materialdesign:before {
+  content: "\ea0b";
+  color: #757575;
+}
+.mari-mathworks:before {
+  content: "\ea0c";
+  color: #0076a8;
+}
+.mari-matrix:before {
+  content: "\ea0d";
+}
+.mari-mattermost:before {
+  content: "\ea0e";
+  color: #0072c6;
+}
+.mari-matternet:before {
+  content: "\ea0f";
+}
+.mari-mcafee:before {
+  content: "\ea10";
+  color: #c01818;
+}
+.mari-mdnwebdocs:before {
+  content: "\ea11";
+}
+.mari-mediafire:before {
+  content: "\ea12";
+  color: #1299f3;
+}
+.mari-mediatemple:before {
+  content: "\ea13";
+}
+.mari-medium:before {
+  content: "\ea14";
+}
+.mari-meetup:before {
+  content: "\ea15";
+  color: #ed1c40;
+}
+.mari-mega:before {
+  content: "\ea16";
+  color: #d9272e;
+}
+.mari-mendeley:before {
+  content: "\ea17";
+  color: #9d1620;
+}
+.mari-mercedes:before {
+  content: "\ea18";
+}
+.mari-messenger:before {
+  content: "\ea19";
+  color: #00b2ff;
+}
+.mari-meteor:before {
+  content: "\ea1a";
+  color: #de4f4f;
+}
+.mari-micro-dot-blog:before {
+  content: "\ea1b";
+  color: #fd8308;
+}
+.mari-microgenetics:before {
+  content: "\ea1c";
+  color: #f00;
+}
+.mari-microsoft:before {
+  content: "\ea1d";
+  color: #666;
+}
+.mari-microsoftaccess:before {
+  content: "\ea1e";
+  color: #ba141a;
+}
+.mari-microsoftazure:before {
+  content: "\ea1f";
+  color: #0089d6;
+}
+.mari-microsoftedge:before {
+  content: "\ea20";
+  color: #0078d7;
+}
+.mari-microsoftexcel:before {
+  content: "\ea21";
+  color: #217346;
+}
+.mari-microsoftoffice:before {
+  content: "\ea22";
+  color: #e74025;
+}
+.mari-microsoftonedrive:before {
+  content: "\ea23";
+  color: #094ab2;
+}
+.mari-microsoftonenote:before {
+  content: "\ea24";
+  color: #80397b;
+}
+.mari-microsoftoutlook:before {
+  content: "\ea25";
+  color: #0072c6;
+}
+.mari-microsoftpowerpoint:before {
+  content: "\ea26";
+  color: #d24726;
+}
+.mari-microsoftteams:before {
+  content: "\ea27";
+  color: #6264a7;
+}
+.mari-microsoftword:before {
+  content: "\ea28";
+  color: #2b579a;
+}
+.mari-microstrategy:before {
+  content: "\ea29";
+  color: #d9232e;
+}
+.mari-minds:before {
+  content: "\ea2a";
+  color: #fed12f;
+}
+.mari-minetest:before {
+  content: "\ea2b";
+  color: #53ac56;
+}
+.mari-minutemailer:before {
+  content: "\ea2c";
+  color: #3abfe6;
+}
+.mari-mix:before {
+  content: "\ea2d";
+  color: #ff8126;
+}
+.mari-mixcloud:before {
+  content: "\ea2e";
+  color: #314359;
+}
+.mari-mixer:before {
+  content: "\ea2f";
+  color: #002050;
+}
+.mari-mojang:before {
+  content: "\ea30";
+  color: #db1f29;
+}
+.mari-monero:before {
+  content: "\ea31";
+  color: #f60;
+}
+.mari-mongodb:before {
+  content: "\ea32";
+  color: #47a248;
+}
+.mari-monkeytie:before {
+  content: "\ea33";
+  color: #ffc619;
+}
+.mari-monogram:before {
+  content: "\ea34";
+  color: #fdb22a;
+}
+.mari-monster:before {
+  content: "\ea35";
+  color: #6e46ae;
+}
+.mari-monzo:before {
+  content: "\ea36";
+}
+.mari-moo:before {
+  content: "\ea37";
+  color: #00945e;
+}
+.mari-mozilla:before {
+  content: "\ea38";
+}
+.mari-mozillafirefox:before {
+  content: "\ea39";
+  color: #ff7139;
+}
+.mari-musescore:before {
+  content: "\ea3a";
+  color: #1a70b8;
+}
+.mari-mxlinux:before {
+  content: "\ea3b";
+}
+.mari-myspace:before {
+  content: "\ea3c";
+}
+.mari-mysql:before {
+  content: "\ea3d";
+  color: #4479a1;
+}
+.mari-nativescript:before {
+  content: "\ea3e";
+  color: #3655ff;
+}
+.mari-nec:before {
+  content: "\ea3f";
+  color: #1414a0;
+}
+.mari-neo4j:before {
+  content: "\ea40";
+  color: #008cc1;
+}
+.mari-netflix:before {
+  content: "\ea41";
+  color: #e50914;
+}
+.mari-netlify:before {
+  content: "\ea42";
+  color: #00c7b7;
+}
+.mari-next-dot-js:before {
+  content: "\ea43";
+}
+.mari-nextcloud:before {
+  content: "\ea44";
+  color: #0082c9;
+}
+.mari-nextdoor:before {
+  content: "\ea45";
+  color: #00b246;
+}
+.mari-nginx:before {
+  content: "\ea46";
+  color: #269539;
+}
+.mari-nim:before {
+  content: "\ea47";
+  color: #ffe953;
+}
+.mari-nintendo:before {
+  content: "\ea48";
+  color: #8f8f8f;
+}
+.mari-nintendo3ds:before {
+  content: "\ea49";
+  color: #d12228;
+}
+.mari-nintendogamecube:before {
+  content: "\ea4a";
+  color: #6a5fbb;
+}
+.mari-nintendoswitch:before {
+  content: "\ea4b";
+  color: #e60012;
+}
+.mari-node-dot-js:before {
+  content: "\ea4c";
+  color: #393;
+}
+.mari-node-red:before {
+  content: "\ea4d";
+  color: #8f0000;
+}
+.mari-nodemon:before {
+  content: "\ea4e";
+  color: #76d04b;
+}
+.mari-nokia:before {
+  content: "\ea4f";
+  color: #124191;
+}
+.mari-notion:before {
+  content: "\ea50";
+}
+.mari-notist:before {
+  content: "\ea51";
+}
+.mari-npm1:before {
+  content: "\ea52";
+  color: #cb3837;
+}
+.mari-nucleo:before {
+  content: "\ea53";
+  color: #766dcc;
+}
+.mari-nuget:before {
+  content: "\ea54";
+  color: #004880;
+}
+.mari-nutanix:before {
+  content: "\ea55";
+  color: #024da1;
+}
+.mari-nuxt-dot-js:before {
+  content: "\ea56";
+  color: #00c58e;
+}
+.mari-nvidia:before {
+  content: "\ea57";
+  color: #76b900;
+}
+.mari-obsstudio:before {
+  content: "\ea58";
+}
+.mari-ocaml:before {
+  content: "\ea59";
+  color: #ec6813;
+}
+.mari-octave:before {
+  content: "\ea5a";
+  color: #0790c0;
+}
+.mari-octopusdeploy:before {
+  content: "\ea5b";
+  color: #2f93e0;
+}
+.mari-oculus:before {
+  content: "\ea5c";
+}
+.mari-odnoklassniki:before {
+  content: "\ea5d";
+  color: #f4731c;
+}
+.mari-openaccess:before {
+  content: "\ea5e";
+  color: #f68212;
+}
+.mari-openapiinitiative:before {
+  content: "\ea5f";
+  color: #6ba539;
+}
+.mari-opencollective:before {
+  content: "\ea60";
+  color: #7fadf2;
+}
+.mari-openid:before {
+  content: "\ea61";
+  color: #f78c40;
+}
+.mari-opensourceinitiative:before {
+  content: "\ea62";
+  color: #3da639;
+}
+.mari-openssl:before {
+  content: "\ea63";
+  color: #721412;
+}
+.mari-openstreetmap:before {
+  content: "\ea64";
+  color: #7ebc6f;
+}
+.mari-opensuse:before {
+  content: "\ea65";
+  color: #73ba25;
+}
+.mari-openvpn:before {
+  content: "\ea66";
+  color: #ea7e20;
+}
+.mari-opera1:before {
+  content: "\ea67";
+  color: #ff1b2d;
+}
+.mari-opsgenie:before {
+  content: "\ea68";
+}
+.mari-oracle:before {
+  content: "\ea69";
+  color: #f80000;
+}
+.mari-orcid:before {
+  content: "\ea6a";
+  color: #a6ce39;
+}
+.mari-origin:before {
+  content: "\ea6b";
+  color: #f56c2d;
+}
+.mari-osmc:before {
+  content: "\ea6c";
+}
+.mari-overcast:before {
+  content: "\ea6d";
+  color: #fc7e0f;
+}
+.mari-overleaf:before {
+  content: "\ea6e";
+  color: #47a141;
+}
+.mari-ovh:before {
+  content: "\ea6f";
+  color: #123f6d;
+}
+.mari-pagekit:before {
+  content: "\ea70";
+}
+.mari-palantir:before {
+  content: "\ea71";
+}
+.mari-paloaltosoftware:before {
+  content: "\ea72";
+  color: #83da77;
+}
+.mari-pandora:before {
+  content: "\ea73";
+  color: #005483;
+}
+.mari-pantheon:before {
+  content: "\ea74";
+  color: #efd01b;
+}
+.mari-parse-dot-ly:before {
+  content: "\ea75";
+  color: #5ba745;
+}
+.mari-pastebin:before {
+  content: "\ea76";
+  color: #02456c;
+}
+.mari-patreon:before {
+  content: "\ea77";
+  color: #f96854;
+}
+.mari-paypal1:before {
+  content: "\ea78";
+  color: #00457c;
+}
+.mari-peertube:before {
+  content: "\ea79";
+  color: #f1680d;
+}
+.mari-periscope:before {
+  content: "\ea7a";
+  color: #40a4c4;
+}
+.mari-php:before {
+  content: "\ea7b";
+  color: #777bb4;
+}
+.mari-pi-hole:before {
+  content: "\ea7c";
+  color: #f60d1a;
+}
+.mari-picarto-dot-tv:before {
+  content: "\ea7d";
+  color: #1da456;
+}
+.mari-pinboard:before {
+  content: "\ea7e";
+  color: #00f;
+}
+.mari-pingdom:before {
+  content: "\ea7f";
+  color: #fff000;
+}
+.mari-pingup:before {
+  content: "\ea80";
+  color: #00b1ab;
+}
+.mari-pinterest1:before {
+  content: "\ea81";
+  color: #bd081c;
+}
+.mari-pivotaltracker:before {
+  content: "\ea82";
+  color: #517a9e;
+}
+.mari-pjsip:before {
+  content: "\ea83";
+  color: #f86001;
+}
+.mari-plangrid:before {
+  content: "\ea84";
+  color: #0085de;
+}
+.mari-player-dot-me:before {
+  content: "\ea85";
+  color: #c0379a;
+}
+.mari-playerfm:before {
+  content: "\ea86";
+  color: #c8122a;
+}
+.mari-playstation:before {
+  content: "\ea87";
+  color: #003791;
+}
+.mari-playstation3:before {
+  content: "\ea88";
+  color: #003791;
+}
+.mari-playstation4:before {
+  content: "\ea89";
+  color: #003791;
+}
+.mari-plesk:before {
+  content: "\ea8a";
+  color: #52bbe6;
+}
+.mari-plex:before {
+  content: "\ea8b";
+  color: #e5a00d;
+}
+.mari-pluralsight:before {
+  content: "\ea8c";
+  color: #f15b2a;
+}
+.mari-plurk:before {
+  content: "\ea8d";
+  color: #ff574d;
+}
+.mari-pocket:before {
+  content: "\ea8e";
+  color: #ef3f56;
+}
+.mari-pocketcasts:before {
+  content: "\ea8f";
+  color: #f43e37;
+}
+.mari-postgresql:before {
+  content: "\ea90";
+  color: #336791;
+}
+.mari-postman:before {
+  content: "\ea91";
+  color: #ff6c37;
+}
+.mari-postwoman:before {
+  content: "\ea92";
+  color: #50fa7b;
+}
+.mari-powershell:before {
+  content: "\ea93";
+  color: #5391fe;
+}
+.mari-prestashop:before {
+  content: "\ea94";
+  color: #df0067;
+}
+.mari-prettier:before {
+  content: "\ea95";
+  color: #f7b93e;
+}
+.mari-prismic:before {
+  content: "\ea96";
+  color: #484a7a;
+}
+.mari-probot:before {
+  content: "\ea97";
+  color: #00b0d8;
+}
+.mari-processwire:before {
+  content: "\ea98";
+  color: #ef145f;
+}
+.mari-producthunt:before {
+  content: "\ea99";
+  color: #da552f;
+}
+.mari-prometheus:before {
+  content: "\ea9a";
+  color: #e6522c;
+}
+.mari-proto-dot-io:before {
+  content: "\ea9b";
+  color: #34a7c1;
+}
+.mari-protonmail:before {
+  content: "\ea9c";
+  color: #8b89cc;
+}
+.mari-proxmox:before {
+  content: "\ea9d";
+  color: #e57000;
+}
+.mari-publons:before {
+  content: "\ea9e";
+  color: #369;
+}
+.mari-purescript:before {
+  content: "\ea9f";
+}
+.mari-pypi:before {
+  content: "\eaa0";
+  color: #3775a9;
+}
+.mari-python:before {
+  content: "\eaa1";
+  color: #3776ab;
+}
+.mari-pytorch:before {
+  content: "\eaa2";
+  color: #ee4c2c;
+}
+.mari-pyup:before {
+  content: "\eaa3";
+  color: #9f55ff;
+}
+.mari-qemu:before {
+  content: "\eaa4";
+  color: #f60;
+}
+.mari-qgis:before {
+  content: "\eaa5";
+  color: #589632;
+}
+.mari-qiita:before {
+  content: "\eaa6";
+  color: #55c500;
+}
+.mari-qualcomm:before {
+  content: "\eaa7";
+  color: #3253dc;
+}
+.mari-quantcast:before {
+  content: "\eaa8";
+}
+.mari-quantopian:before {
+  content: "\eaa9";
+  color: #c50000;
+}
+.mari-quarkus:before {
+  content: "\eaaa";
+  color: #4695eb;
+}
+.mari-quicktime:before {
+  content: "\eaab";
+  color: #1c69f0;
+}
+.mari-quip:before {
+  content: "\eaac";
+  color: #f27557;
+}
+.mari-quora:before {
+  content: "\eaad";
+  color: #b92b27;
+}
+.mari-qwiklabs:before {
+  content: "\eaae";
+  color: #f5cd0e;
+}
+.mari-qzone:before {
+  content: "\eaaf";
+  color: #fece00;
+}
+.mari-r:before {
+  content: "\eab0";
+  color: #276dc3;
+}
+.mari-rabbitmq:before {
+  content: "\eab1";
+  color: #f60;
+}
+.mari-radiopublic:before {
+  content: "\eab2";
+  color: #ce262f;
+}
+.mari-rails:before {
+  content: "\eab3";
+  color: #c00;
+}
+.mari-raspberrypi:before {
+  content: "\eab4";
+  color: #c51a4a;
+}
+.mari-react:before {
+  content: "\eab5";
+  color: #61dafb;
+}
+.mari-reactos:before {
+  content: "\eab6";
+  color: #08c;
+}
+.mari-reactrouter:before {
+  content: "\eab7";
+  color: #ca4245;
+}
+.mari-readthedocs:before {
+  content: "\eab8";
+  color: #8ca1af;
+}
+.mari-realm:before {
+  content: "\eab9";
+  color: #39477f;
+}
+.mari-reason:before {
+  content: "\eaba";
+  color: #dd4b39;
+}
+.mari-reasonstudios:before {
+  content: "\eabb";
+  color: #fff;
+}
+.mari-redbubble:before {
+  content: "\eabc";
+  color: #e41321;
+}
+.mari-reddit1:before {
+  content: "\eabd";
+  color: #ff4500;
+}
+.mari-redhat:before {
+  content: "\eabe";
+  color: #e00;
+}
+.mari-redis:before {
+  content: "\eabf";
+  color: #d82c20;
+}
+.mari-redux:before {
+  content: "\eac0";
+  color: #764abc;
+}
+.mari-renren1:before {
+  content: "\eac1";
+  color: #217dc6;
+}
+.mari-repl-dot-it:before {
+  content: "\eac2";
+  color: #667881;
+}
+.mari-researchgate:before {
+  content: "\eac3";
+  color: #0cb;
+}
+.mari-reverbnation:before {
+  content: "\eac4";
+  color: #e43526;
+}
+.mari-riot:before {
+  content: "\eac5";
+  color: #368bd6;
+}
+.mari-ripple:before {
+  content: "\eac6";
+  color: #0085c0;
+}
+.mari-riseup:before {
+  content: "\eac7";
+  color: #5e9ee3;
+}
+.mari-rollup-dot-js:before {
+  content: "\eac8";
+  color: #ec4a3f;
+}
+.mari-roots:before {
+  content: "\eac9";
+  color: #525ddc;
+}
+.mari-roundcube:before {
+  content: "\eaca";
+  color: #37beff;
+}
+.mari-rss1:before {
+  content: "\eacb";
+  color: #ffa500;
+}
+.mari-rstudio:before {
+  content: "\eacc";
+  color: #75aadb;
+}
+.mari-ruby:before {
+  content: "\eacd";
+  color: #cc342d;
+}
+.mari-rubygems:before {
+  content: "\eace";
+  color: #e9573f;
+}
+.mari-runkeeper:before {
+  content: "\eacf";
+  color: #2dc9d7;
+}
+.mari-rust:before {
+  content: "\ead0";
+}
+.mari-safari1:before {
+  content: "\ead1";
+}
+.mari-sahibinden:before {
+  content: "\ead2";
+  color: #ffe800;
+}
+.mari-salesforce:before {
+  content: "\ead3";
+  color: #00a1e0;
+}
+.mari-saltstack:before {
+  content: "\ead4";
+  color: #00eace;
+}
+.mari-samsung:before {
+  content: "\ead5";
+  color: #1428a0;
+}
+.mari-samsungpay:before {
+  content: "\ead6";
+  color: #1428a0;
+}
+.mari-sap:before {
+  content: "\ead7";
+  color: #008fd3;
+}
+.mari-sass:before {
+  content: "\ead8";
+  color: #c69;
+}
+.mari-saucelabs:before {
+  content: "\ead9";
+  color: #e2231a;
+}
+.mari-scala:before {
+  content: "\eada";
+  color: #dc322f;
+}
+.mari-scaleway:before {
+  content: "\eadb";
+  color: #4f0599;
+}
+.mari-scribd:before {
+  content: "\eadc";
+  color: #1a7bba;
+}
+.mari-scrutinizerci:before {
+  content: "\eadd";
+  color: #8a9296;
+}
+.mari-seagate:before {
+  content: "\eade";
+  color: #72be4f;
+}
+.mari-sega:before {
+  content: "\eadf";
+  color: #0089cf;
+}
+.mari-sellfy:before {
+  content: "\eae0";
+  color: #21b352;
+}
+.mari-semaphoreci:before {
+  content: "\eae1";
+  color: #19a974;
+}
+.mari-sensu:before {
+  content: "\eae2";
+  color: #89c967;
+}
+.mari-sentry:before {
+  content: "\eae3";
+  color: #fb4226;
+}
+.mari-serverfault:before {
+  content: "\eae4";
+  color: #e7282d;
+}
+.mari-shazam:before {
+  content: "\eae5";
+  color: #08f;
+}
+.mari-shell:before {
+  content: "\eae6";
+  color: #ffd500;
+}
+.mari-shopify:before {
+  content: "\eae7";
+  color: #7ab55c;
+}
+.mari-showpad:before {
+  content: "\eae8";
+  color: #2d2e83;
+}
+.mari-siemens:before {
+  content: "\eae9";
+  color: #099;
+}
+.mari-signal:before {
+  content: "\eaea";
+  color: #2592e9;
+}
+.mari-simpleicons:before {
+  content: "\eaeb";
+}
+.mari-sinaweibo:before {
+  content: "\eaec";
+  color: #e6162d;
+}
+.mari-sitepoint:before {
+  content: "\eaed";
+  color: #258aaf;
+}
+.mari-sketch:before {
+  content: "\eaee";
+  color: #f7b500;
+}
+.mari-skillshare:before {
+  content: "\eaef";
+  color: #17c5cb;
+}
+.mari-skyliner:before {
+  content: "\eaf0";
+  color: #2fcea0;
+}
+.mari-skype1:before {
+  content: "\eaf1";
+  color: #00aff0;
+}
+.mari-slack:before {
+  content: "\eaf2";
+  color: #4a154b;
+}
+.mari-slashdot:before {
+  content: "\eaf3";
+  color: #026664;
+}
+.mari-slickpic:before {
+  content: "\eaf4";
+  color: #ff880f;
+}
+.mari-slides:before {
+  content: "\eaf5";
+  color: #e4637c;
+}
+.mari-smashingmagazine:before {
+  content: "\eaf6";
+  color: #e85c33;
+}
+.mari-smugmug:before {
+  content: "\eaf7";
+  color: #6db944;
+}
+.mari-snapchat:before {
+  content: "\eaf8";
+  color: #fffc00;
+}
+.mari-snapcraft:before {
+  content: "\eaf9";
+  color: #82bea0;
+}
+.mari-snyk:before {
+  content: "\eafa";
+  color: #4c4a73;
+}
+.mari-society6:before {
+  content: "\eafb";
+}
+.mari-socket-dot-io:before {
+  content: "\eafc";
+}
+.mari-sogou:before {
+  content: "\eafd";
+  color: #fb6022;
+}
+.mari-solus:before {
+  content: "\eafe";
+  color: #5294e2;
+}
+.mari-sonarcloud:before {
+  content: "\eaff";
+  color: #f3702a;
+}
+.mari-sonarlint:before {
+  content: "\eb00";
+  color: #cc2026;
+}
+.mari-sonarqube:before {
+  content: "\eb01";
+  color: #4e9bcd;
+}
+.mari-sonarsource:before {
+  content: "\eb02";
+  color: #cb3032;
+}
+.mari-songkick:before {
+  content: "\eb03";
+  color: #f80046;
+}
+.mari-sonicwall:before {
+  content: "\eb04";
+  color: #f60;
+}
+.mari-sonos:before {
+  content: "\eb05";
+}
+.mari-soundcloud1:before {
+  content: "\eb06";
+  color: #f30;
+}
+.mari-sourceengine:before {
+  content: "\eb07";
+  color: #f79a10;
+}
+.mari-sourceforge:before {
+  content: "\eb08";
+  color: #535353;
+}
+.mari-sourcegraph:before {
+  content: "\eb09";
+  color: #00b4f2;
+}
+.mari-spacemacs:before {
+  content: "\eb0a";
+  color: #9266cc;
+}
+.mari-spacex:before {
+  content: "\eb0b";
+  color: #005288;
+}
+.mari-sparkfun:before {
+  content: "\eb0c";
+  color: #e53525;
+}
+.mari-sparkpost:before {
+  content: "\eb0d";
+  color: #fa6423;
+}
+.mari-spdx:before {
+  content: "\eb0e";
+  color: #4398cc;
+}
+.mari-speakerdeck:before {
+  content: "\eb0f";
+  color: #396;
+}
+.mari-spectrum:before {
+  content: "\eb10";
+  color: #7b16ff;
+}
+.mari-spotify1:before {
+  content: "\eb11";
+  color: #1ed760;
+}
+.mari-spotlight:before {
+  content: "\eb12";
+  color: #352a71;
+}
+.mari-spreaker:before {
+  content: "\eb13";
+  color: #f5c300;
+}
+.mari-spring:before {
+  content: "\eb14";
+  color: #6db33f;
+}
+.mari-sprint:before {
+  content: "\eb15";
+  color: #ffce0a;
+}
+.mari-square:before {
+  content: "\eb16";
+}
+.mari-squarespace:before {
+  content: "\eb17";
+}
+.mari-stackbit:before {
+  content: "\eb18";
+  color: #3eb0fd;
+}
+.mari-stackexchange:before {
+  content: "\eb19";
+  color: #1e5397;
+}
+.mari-stackoverflow1:before {
+  content: "\eb1a";
+  color: #fe7a16;
+}
+.mari-stackpath:before {
+  content: "\eb1b";
+}
+.mari-stackshare:before {
+  content: "\eb1c";
+  color: #0690fa;
+}
+.mari-stadia:before {
+  content: "\eb1d";
+  color: #cd2640;
+}
+.mari-statamic:before {
+  content: "\eb1e";
+}
+.mari-staticman:before {
+  content: "\eb1f";
+}
+.mari-statuspage:before {
+  content: "\eb20";
+}
+.mari-steam1:before {
+  content: "\eb21";
+}
+.mari-steamworks:before {
+  content: "\eb22";
+}
+.mari-steem:before {
+  content: "\eb23";
+  color: #4ba2f2;
+}
+.mari-steemit:before {
+  content: "\eb24";
+  color: #06d6a9;
+}
+.mari-steinberg:before {
+  content: "\eb25";
+  color: #c90827;
+}
+.mari-stencyl:before {
+  content: "\eb26";
+  color: #8e1c04;
+}
+.mari-stitcher:before {
+  content: "\eb27";
+}
+.mari-storify:before {
+  content: "\eb28";
+  color: #3a98d9;
+}
+.mari-storybook:before {
+  content: "\eb29";
+  color: #ff4785;
+}
+.mari-strapi:before {
+  content: "\eb2a";
+  color: #2e7eea;
+}
+.mari-strava:before {
+  content: "\eb2b";
+  color: #fc4c02;
+}
+.mari-stripe:before {
+  content: "\eb2c";
+  color: #008cdd;
+}
+.mari-strongswan:before {
+  content: "\eb2d";
+  color: #e00033;
+}
+.mari-stubhub:before {
+  content: "\eb2e";
+  color: #003168;
+}
+.mari-styled-components:before {
+  content: "\eb2f";
+  color: #db7093;
+}
+.mari-styleshare:before {
+  content: "\eb30";
+}
+.mari-stylus:before {
+  content: "\eb31";
+}
+.mari-sublimetext:before {
+  content: "\eb32";
+  color: #ff9800;
+}
+.mari-subversion:before {
+  content: "\eb33";
+  color: #809cc9;
+}
+.mari-superuser:before {
+  content: "\eb34";
+  color: #2eace3;
+}
+.mari-svelte:before {
+  content: "\eb35";
+  color: #ff3e00;
+}
+.mari-svg1:before {
+  content: "\eb36";
+  color: #ffb13b;
+}
+.mari-svgo:before {
+  content: "\eb37";
+  color: #14b9ff;
+}
+.mari-swagger:before {
+  content: "\eb38";
+  color: #85ea2d;
+}
+.mari-swarm:before {
+  content: "\eb39";
+  color: #ffa633;
+}
+.mari-swift:before {
+  content: "\eb3a";
+  color: #fa7343;
+}
+.mari-symantec:before {
+  content: "\eb3b";
+  color: #fdb511;
+}
+.mari-symfony:before {
+  content: "\eb3c";
+}
+.mari-synology:before {
+  content: "\eb3d";
+  color: #b6b5b6;
+}
+.mari-t-mobile:before {
+  content: "\eb3e";
+  color: #e20074;
+}
+.mari-tableau:before {
+  content: "\eb3f";
+  color: #e97627;
+}
+.mari-tails:before {
+  content: "\eb40";
+  color: #56347c;
+}
+.mari-tailwindcss:before {
+  content: "\eb41";
+  color: #38b2ac;
+}
+.mari-tapas:before {
+  content: "\eb42";
+  color: #ffce00;
+}
+.mari-teamviewer:before {
+  content: "\eb43";
+  color: #0e8ee9;
+}
+.mari-ted:before {
+  content: "\eb44";
+  color: #e62b1e;
+}
+.mari-teespring:before {
+  content: "\eb45";
+  color: #39ace6;
+}
+.mari-telegram1:before {
+  content: "\eb46";
+  color: #2ca5e0;
+}
+.mari-tencentqq:before {
+  content: "\eb47";
+  color: #eb1923;
+}
+.mari-tencentweibo:before {
+  content: "\eb48";
+  color: #20b8e5;
+}
+.mari-tensorflow:before {
+  content: "\eb49";
+  color: #ff6f00;
+}
+.mari-teradata:before {
+  content: "\eb4a";
+  color: #f37440;
+}
+.mari-terraform:before {
+  content: "\eb4b";
+  color: #623ce4;
+}
+.mari-tesla:before {
+  content: "\eb4c";
+  color: #c00;
+}
+.mari-themighty:before {
+  content: "\eb4d";
+  color: #d0072a;
+}
+.mari-themoviedatabase:before {
+  content: "\eb4e";
+  color: #01d277;
+}
+.mari-tidal:before {
+  content: "\eb4f";
+}
+.mari-tiktok:before {
+  content: "\eb50";
+}
+.mari-timescale:before {
+  content: "\eb51";
+  color: #fdb515;
+}
+.mari-tinder:before {
+  content: "\eb52";
+  color: #ff6b6b;
+}
+.mari-todoist:before {
+  content: "\eb53";
+  color: #e44332;
+}
+.mari-toggl:before {
+  content: "\eb54";
+  color: #e01b22;
+}
+.mari-topcoder:before {
+  content: "\eb55";
+  color: #29a8e0;
+}
+.mari-toptal:before {
+  content: "\eb56";
+  color: #3863a0;
+}
+.mari-tor:before {
+  content: "\eb57";
+  color: #7e4798;
+}
+.mari-toshiba:before {
+  content: "\eb58";
+  color: #f00;
+}
+.mari-trainerroad:before {
+  content: "\eb59";
+  color: #e12726;
+}
+.mari-trakt:before {
+  content: "\eb5a";
+  color: #ed1c24;
+}
+.mari-travisci:before {
+  content: "\eb5b";
+  color: #3eaaaf;
+}
+.mari-treehouse:before {
+  content: "\eb5c";
+  color: #5fcf80;
+}
+.mari-trello1:before {
+  content: "\eb5d";
+  color: #0079bf;
+}
+.mari-trendmicro:before {
+  content: "\eb5e";
+  color: #d71921;
+}
+.mari-tripadvisor:before {
+  content: "\eb5f";
+  color: #00af87;
+}
+.mari-trulia:before {
+  content: "\eb60";
+  color: #53b50a;
+}
+.mari-trustpilot:before {
+  content: "\eb61";
+  color: #00b67a;
+}
+.mari-tumblr1:before {
+  content: "\eb62";
+  color: #36465d;
+}
+.mari-turkishairlines:before {
+  content: "\eb63";
+  color: #c70a0c;
+}
+.mari-twilio:before {
+  content: "\eb64";
+  color: #f22f46;
+}
+.mari-twitch1:before {
+  content: "\eb65";
+  color: #6441a4;
+}
+.mari-twitter1:before {
+  content: "\eb66";
+  color: #1da1f2;
+}
+.mari-twoo:before {
+  content: "\eb67";
+  color: #ff7102;
+}
+.mari-typescript:before {
+  content: "\eb68";
+  color: #007acc;
+}
+.mari-typo3:before {
+  content: "\eb69";
+  color: #ff8700;
+}
+.mari-uber:before {
+  content: "\eb6a";
+}
+.mari-ubereats:before {
+  content: "\eb6b";
+  color: #5fb709;
+}
+.mari-ubisoft:before {
+  content: "\eb6c";
+}
+.mari-ublockorigin:before {
+  content: "\eb6d";
+  color: #800000;
+}
+.mari-ubuntu:before {
+  content: "\eb6e";
+  color: #e95420;
+}
+.mari-udacity:before {
+  content: "\eb6f";
+  color: #01b3e3;
+}
+.mari-udemy:before {
+  content: "\eb70";
+  color: #ec5252;
+}
+.mari-uikit:before {
+  content: "\eb71";
+  color: #2396f3;
+}
+.mari-umbraco:before {
+  content: "\eb72";
+  color: #00bec1;
+}
+.mari-unity:before {
+  content: "\eb73";
+}
+.mari-unrealengine:before {
+  content: "\eb74";
+}
+.mari-unsplash:before {
+  content: "\eb75";
+}
+.mari-untappd:before {
+  content: "\eb76";
+  color: #ffc000;
+}
+.mari-upwork:before {
+  content: "\eb77";
+  color: #6fda44;
+}
+.mari-v:before {
+  content: "\eb78";
+  color: #5d87bf;
+}
+.mari-v8:before {
+  content: "\eb79";
+  color: #4b8bf5;
+}
+.mari-vagrant:before {
+  content: "\eb7a";
+  color: #1563ff;
+}
+.mari-valve:before {
+  content: "\eb7b";
+  color: #f74843;
+}
+.mari-veeam:before {
+  content: "\eb7c";
+  color: #00b336;
+}
+.mari-venmo:before {
+  content: "\eb7d";
+  color: #3d95ce;
+}
+.mari-verizon:before {
+  content: "\eb7e";
+  color: #cd040b;
+}
+.mari-viadeo:before {
+  content: "\eb7f";
+  color: #f88d2d;
+}
+.mari-vimeo1:before {
+  content: "\eb80";
+  color: #1ab7ea;
+}
+.mari-vine1:before {
+  content: "\eb81";
+  color: #11b48a;
+}
+.mari-virb:before {
+  content: "\eb82";
+  color: #0093da;
+}
+.mari-visa:before {
+  content: "\eb83";
+  color: #142787;
+}
+.mari-visualstudio:before {
+  content: "\eb84";
+  color: #5c2d91;
+}
+.mari-visualstudiocode:before {
+  content: "\eb85";
+  color: #007acc;
+}
+.mari-vk1:before {
+  content: "\eb86";
+  color: #4680c2;
+}
+.mari-vlcmediaplayer:before {
+  content: "\eb87";
+  color: #f80;
+}
+.mari-vodafone:before {
+  content: "\eb88";
+  color: #e60000;
+}
+.mari-volkswagen:before {
+  content: "\eb89";
+  color: #151f5d;
+}
+.mari-vsco:before {
+  content: "\eb8a";
+}
+.mari-wattpad:before {
+  content: "\eb8b";
+  color: #f68d12;
+}
+.mari-waze:before {
+  content: "\eb8c";
+  color: #333665;
+}
+.mari-weasyl:before {
+  content: "\eb8d";
+  color: #900;
+}
+.mari-webauthn:before {
+  content: "\eb8e";
+  color: #3423a6;
+}
+.mari-webcomponents-dot-org:before {
+  content: "\eb8f";
+  color: #29abe2;
+}
+.mari-webmin:before {
+  content: "\eb90";
+  color: #7da0d0;
+}
+.mari-webpack:before {
+  content: "\eb91";
+  color: #8dd6f9;
+}
+.mari-webstorm:before {
+  content: "\eb92";
+}
+.mari-wechat:before {
+  content: "\eb93";
+  color: #7bb32e;
+}
+.mari-whatsapp1:before {
+  content: "\eb94";
+  color: #25d366;
+}
+.mari-wheniwork:before {
+  content: "\eb95";
+  color: #51a33d;
+}
+.mari-wiiu:before {
+  content: "\eb96";
+  color: #8b8b8b;
+}
+.mari-wikipedia1:before {
+  content: "\eb97";
+}
+.mari-windows1:before {
+  content: "\eb98";
+  color: #0078d6;
+}
+.mari-wire:before {
+  content: "\eb99";
+}
+.mari-wireguard:before {
+  content: "\eb9a";
+  color: #88171a;
+}
+.mari-wish:before {
+  content: "\eb9b";
+  color: #2fb7ec;
+}
+.mari-wix:before {
+  content: "\eb9c";
+  color: #faad4d;
+}
+.mari-wolfram:before {
+  content: "\eb9d";
+  color: #d10;
+}
+.mari-wolframlanguage:before {
+  content: "\eb9e";
+  color: #d10;
+}
+.mari-wolframmathematica:before {
+  content: "\eb9f";
+  color: #d10;
+}
+.mari-wordpress1:before {
+  content: "\eba0";
+  color: #21759b;
+}
+.mari-write-dot-as:before {
+  content: "\eba1";
+  color: #5bc4ee;
+}
+.mari-x-dot-org:before {
+  content: "\eba2";
+  color: #f28834;
+}
+.mari-x-pack:before {
+  content: "\eba3";
+  color: #005571;
+}
+.mari-xamarin:before {
+  content: "\eba4";
+  color: #4393d4;
+}
+.mari-xbox:before {
+  content: "\eba5";
+  color: #107c10;
+}
+.mari-xcode:before {
+  content: "\eba6";
+  color: #1575f9;
+}
+.mari-xdadevelopers:before {
+  content: "\eba7";
+  color: #f59812;
+}
+.mari-xero:before {
+  content: "\eba8";
+  color: #13b5ea;
+}
+.mari-xfce:before {
+  content: "\eba9";
+  color: #2284f2;
+}
+.mari-xiaomi:before {
+  content: "\ebaa";
+  color: #fa6709;
+}
+.mari-xing1:before {
+  content: "\ebab";
+  color: #006567;
+}
+.mari-xsplit:before {
+  content: "\ebac";
+  color: #0095de;
+}
+.mari-yahoo1:before {
+  content: "\ebad";
+  color: #6001d2;
+}
+.mari-yamahacorporation:before {
+  content: "\ebae";
+  color: #4b1e78;
+}
+.mari-yamahamotorcorporation:before {
+  content: "\ebaf";
+  color: #e60012;
+}
+.mari-yammer:before {
+  content: "\ebb0";
+  color: #0072c6;
+}
+.mari-yandex:before {
+  content: "\ebb1";
+  color: #f00;
+}
+.mari-yarn:before {
+  content: "\ebb2";
+  color: #2c8ebb;
+}
+.mari-ycombinator:before {
+  content: "\ebb3";
+  color: #f0652f;
+}
+.mari-yelp1:before {
+  content: "\ebb4";
+  color: #d32323;
+}
+.mari-youtube1:before {
+  content: "\ebb5";
+  color: #f00;
+}
+.mari-zalando:before {
+  content: "\ebb6";
+  color: #ff6900;
+}
+.mari-zend:before {
+  content: "\ebb7";
+  color: #0679ea;
+}
+.mari-zendesk:before {
+  content: "\ebb8";
+}
+.mari-zendframework:before {
+  content: "\ebb9";
+  color: #68b604;
+}
+.mari-zeromq:before {
+  content: "\ebba";
+  color: #df0000;
+}
+.mari-zerply:before {
+  content: "\ebbb";
+  color: #9dbc7a;
+}
+.mari-zhihu:before {
+  content: "\ebbc";
+  color: #0084ff;
+}
+.mari-zillow:before {
+  content: "\ebbd";
+  color: #0074e4;
+}
+.mari-zingat:before {
+  content: "\ebbe";
+  color: #009cfb;
+}
+.mari-zoom:before {
+  content: "\ebbf";
+  color: #2d8cff;
+}
+.mari-zorin:before {
+  content: "\ebc0";
+  color: #0cc1f3;
+}
+.mari-zulip:before {
+  content: "\ebc1";
+  color: #52c2af;
+}
+.mari-heart1:before {
+  content: "\ebc2";
+}
+.mari-cloud1:before {
+  content: "\ebc3";
+}
+.mari-star:before {
+  content: "\ebc4";
+}
+.mari-tv1:before {
+  content: "\ebc5";
+}
+.mari-sound:before {
+  content: "\ebc6";
+}
+.mari-video:before {
+  content: "\ebc7";
+}
+.mari-trash:before {
+  content: "\ebc8";
+}
+.mari-user1:before {
+  content: "\ebc9";
+}
+.mari-key1:before {
+  content: "\ebca";
+}
+.mari-search1:before {
+  content: "\ebcb";
+}
+.mari-settings:before {
+  content: "\ebcc";
+}
+.mari-camera1:before {
+  content: "\ebcd";
+}
+.mari-tag:before {
+  content: "\ebce";
+}
+.mari-lock1:before {
+  content: "\ebcf";
+}
+.mari-bulb:before {
+  content: "\ebd0";
+}
+.mari-pen1:before {
+  content: "\ebd1";
+}
+.mari-diamond:before {
+  content: "\ebd2";
+}
+.mari-display1:before {
+  content: "\ebd3";
+}
+.mari-location1:before {
+  content: "\ebd4";
+}
+.mari-eye1:before {
+  content: "\ebd5";
+}
+.mari-bubble1:before {
+  content: "\ebd6";
+}
+.mari-stack1:before {
+  content: "\ebd7";
+}
+.mari-cup:before {
+  content: "\ebd8";
+}
+.mari-phone1:before {
+  content: "\ebd9";
+}
+.mari-news:before {
+  content: "\ebda";
+}
+.mari-mail1:before {
+  content: "\ebdb";
+}
+.mari-like:before {
+  content: "\ebdc";
+}
+.mari-photo:before {
+  content: "\ebdd";
+}
+.mari-note:before {
+  content: "\ebde";
+}
+.mari-clock1:before {
+  content: "\ebdf";
+}
+.mari-paperplane:before {
+  content: "\ebe0";
+}
+.mari-params:before {
+  content: "\ebe1";
+}
+.mari-banknote:before {
+  content: "\ebe2";
+}
+.mari-data:before {
+  content: "\ebe3";
+}
+.mari-music1:before {
+  content: "\ebe4";
+}
+.mari-megaphone:before {
+  content: "\ebe5";
+}
+.mari-study:before {
+  content: "\ebe6";
+}
+.mari-lab1:before {
+  content: "\ebe7";
+}
+.mari-food:before {
+  content: "\ebe8";
+}
+.mari-t-shirt:before {
+  content: "\ebe9";
+}
+.mari-fire1:before {
+  content: "\ebea";
+}
+.mari-clip:before {
+  content: "\ebeb";
+}
+.mari-shop:before {
+  content: "\ebec";
+}
+.mari-calendar1:before {
+  content: "\ebed";
+}
+.mari-wallet:before {
+  content: "\ebee";
+}
+.mari-vynil:before {
+  content: "\ebef";
+}
+.mari-truck1:before {
+  content: "\ebf0";
+}
+.mari-world:before {
+  content: "\ebf1";
+}
+.mari-home:before {
+  content: "\ec8e";
+}
+.mari-home2:before {
+  content: "\ec8f";
+}
+.mari-home3:before {
+  content: "\ec90";
+}
+.mari-office:before {
+  content: "\ec91";
+}
+.mari-newspaper:before {
+  content: "\ec92";
+}
+.mari-pencil:before {
+  content: "\ec93";
+}
+.mari-pencil2:before {
+  content: "\ec94";
+}
+.mari-quill:before {
+  content: "\ec95";
+}
+.mari-pen:before {
+  content: "\ec96";
+}
+.mari-blog:before {
+  content: "\ec97";
+}
+.mari-eyedropper:before {
+  content: "\ec98";
+}
+.mari-droplet:before {
+  content: "\ec99";
+}
+.mari-paint-format:before {
+  content: "\ec9a";
+}
+.mari-image:before {
+  content: "\ec9b";
+}
+.mari-images:before {
+  content: "\ec9c";
+}
+.mari-camera:before {
+  content: "\ec9d";
+}
+.mari-headphones:before {
+  content: "\ec9e";
+}
+.mari-music:before {
+  content: "\ec9f";
+}
+.mari-play:before {
+  content: "\eca0";
+}
+.mari-film:before {
+  content: "\eca1";
+}
+.mari-video-camera:before {
+  content: "\eca2";
+}
+.mari-dice:before {
+  content: "\eca3";
+}
+.mari-pacman:before {
+  content: "\eca4";
+}
+.mari-spades:before {
+  content: "\eca5";
+}
+.mari-clubs:before {
+  content: "\eca6";
+}
+.mari-diamonds:before {
+  content: "\eca7";
+}
+.mari-bullhorn:before {
+  content: "\eca8";
+}
+.mari-connection:before {
+  content: "\eca9";
+}
+.mari-podcast:before {
+  content: "\ecaa";
+}
+.mari-feed:before {
+  content: "\ecab";
+}
+.mari-mic:before {
+  content: "\ecac";
+}
+.mari-book:before {
+  content: "\ecad";
+}
+.mari-books:before {
+  content: "\ecae";
+}
+.mari-library:before {
+  content: "\ecaf";
+}
+.mari-file-text:before {
+  content: "\ecb0";
+}
+.mari-profile:before {
+  content: "\ecb1";
+}
+.mari-file-empty:before {
+  content: "\ecb2";
+}
+.mari-files-empty:before {
+  content: "\ecb3";
+}
+.mari-file-text2:before {
+  content: "\ecb4";
+}
+.mari-file-picture:before {
+  content: "\ecb5";
+}
+.mari-file-music:before {
+  content: "\ecb6";
+}
+.mari-file-play:before {
+  content: "\ecb7";
+}
+.mari-file-video:before {
+  content: "\ecb8";
+}
+.mari-file-zip:before {
+  content: "\ecb9";
+}
+.mari-copy:before {
+  content: "\ecba";
+}
+.mari-paste:before {
+  content: "\ecbb";
+}
+.mari-stack:before {
+  content: "\ecbc";
+}
+.mari-folder:before {
+  content: "\ecbd";
+}
+.mari-folder-open:before {
+  content: "\ecbe";
+}
+.mari-folder-plus:before {
+  content: "\ecbf";
+}
+.mari-folder-minus:before {
+  content: "\ecc0";
+}
+.mari-folder-download:before {
+  content: "\ecc1";
+}
+.mari-folder-upload:before {
+  content: "\ecc2";
+}
+.mari-price-tag:before {
+  content: "\ecc3";
+}
+.mari-price-tags:before {
+  content: "\ecc4";
+}
+.mari-barcode:before {
+  content: "\ecc5";
+}
+.mari-qrcode:before {
+  content: "\ecc6";
+}
+.mari-ticket:before {
+  content: "\ecc7";
+}
+.mari-cart:before {
+  content: "\ecc8";
+}
+.mari-coin-dollar:before {
+  content: "\ecc9";
+}
+.mari-coin-euro:before {
+  content: "\ecca";
+}
+.mari-coin-pound:before {
+  content: "\eccb";
+}
+.mari-coin-yen:before {
+  content: "\eccc";
+}
+.mari-credit-card:before {
+  content: "\eccd";
+}
+.mari-calculator:before {
+  content: "\ecce";
+}
+.mari-lifebuoy:before {
+  content: "\eccf";
+}
+.mari-phone:before {
+  content: "\ecd0";
+}
+.mari-phone-hang-up:before {
+  content: "\ecd1";
+}
+.mari-address-book:before {
+  content: "\ecd2";
+}
+.mari-envelop:before {
+  content: "\ecd3";
+}
+.mari-pushpin:before {
+  content: "\ecd4";
+}
+.mari-location:before {
+  content: "\ecd5";
+}
+.mari-location2:before {
+  content: "\ecd6";
+}
+.mari-compass:before {
+  content: "\ecd7";
+}
+.mari-compass2:before {
+  content: "\ecd8";
+}
+.mari-map:before {
+  content: "\ecd9";
+}
+.mari-map2:before {
+  content: "\ecda";
+}
+.mari-history:before {
+  content: "\ecdb";
+}
+.mari-clock:before {
+  content: "\ecdc";
+}
+.mari-clock2:before {
+  content: "\ecdd";
+}
+.mari-alarm:before {
+  content: "\ecde";
+}
+.mari-bell:before {
+  content: "\ecdf";
+}
+.mari-stopwatch:before {
+  content: "\ece0";
+}
+.mari-calendar:before {
+  content: "\ece1";
+}
+.mari-printer:before {
+  content: "\ece2";
+}
+.mari-keyboard:before {
+  content: "\ece3";
+}
+.mari-display:before {
+  content: "\ece4";
+}
+.mari-laptop:before {
+  content: "\ece5";
+}
+.mari-mobile:before {
+  content: "\ece6";
+}
+.mari-mobile2:before {
+  content: "\ece7";
+}
+.mari-tablet:before {
+  content: "\ece8";
+}
+.mari-tv:before {
+  content: "\ece9";
+}
+.mari-drawer:before {
+  content: "\ecea";
+}
+.mari-drawer2:before {
+  content: "\eceb";
+}
+.mari-box-add:before {
+  content: "\ecec";
+}
+.mari-box-remove:before {
+  content: "\eced";
+}
+.mari-download:before {
+  content: "\ecee";
+}
+.mari-upload:before {
+  content: "\ecef";
+}
+.mari-floppy-disk:before {
+  content: "\ecf0";
+}
+.mari-drive:before {
+  content: "\ecf1";
+}
+.mari-database:before {
+  content: "\ecf2";
+}
+.mari-undo:before {
+  content: "\ecf3";
+}
+.mari-redo:before {
+  content: "\ecf4";
+}
+.mari-undo2:before {
+  content: "\ecf5";
+}
+.mari-redo2:before {
+  content: "\ecf6";
+}
+.mari-forward:before {
+  content: "\ecf7";
+}
+.mari-reply:before {
+  content: "\ecf8";
+}
+.mari-bubble:before {
+  content: "\ecf9";
+}
+.mari-bubbles:before {
+  content: "\ecfa";
+}
+.mari-bubbles2:before {
+  content: "\ecfb";
+}
+.mari-bubble2:before {
+  content: "\ecfc";
+}
+.mari-bubbles3:before {
+  content: "\ecfd";
+}
+.mari-bubbles4:before {
+  content: "\ecfe";
+}
+.mari-user:before {
+  content: "\ecff";
+}
+.mari-users:before {
+  content: "\ed00";
+}
+.mari-user-plus:before {
+  content: "\ed01";
+}
+.mari-user-minus:before {
+  content: "\ed02";
+}
+.mari-user-check:before {
+  content: "\ed03";
+}
+.mari-user-tie:before {
+  content: "\ed04";
+}
+.mari-quotes-left:before {
+  content: "\ed05";
+}
+.mari-quotes-right:before {
+  content: "\ed06";
+}
+.mari-hour-glass:before {
+  content: "\ed07";
+}
+.mari-spinner:before {
+  content: "\ed08";
+}
+.mari-spinner2:before {
+  content: "\ed09";
+}
+.mari-spinner3:before {
+  content: "\ed0a";
+}
+.mari-spinner4:before {
+  content: "\ed0b";
+}
+.mari-spinner5:before {
+  content: "\ed0c";
+}
+.mari-spinner6:before {
+  content: "\ed0d";
+}
+.mari-spinner7:before {
+  content: "\ed0e";
+}
+.mari-spinner8:before {
+  content: "\ed0f";
+}
+.mari-spinner9:before {
+  content: "\ed10";
+}
+.mari-spinner10:before {
+  content: "\ed11";
+}
+.mari-spinner11:before {
+  content: "\ed12";
+}
+.mari-binoculars:before {
+  content: "\ed13";
+}
+.mari-search:before {
+  content: "\ed14";
+}
+.mari-zoom-in:before {
+  content: "\ed15";
+}
+.mari-zoom-out:before {
+  content: "\ed16";
+}
+.mari-enlarge:before {
+  content: "\ed17";
+}
+.mari-shrink:before {
+  content: "\ed18";
+}
+.mari-enlarge2:before {
+  content: "\ed19";
+}
+.mari-shrink2:before {
+  content: "\ed1a";
+}
+.mari-key:before {
+  content: "\ed1b";
+}
+.mari-key2:before {
+  content: "\ed1c";
+}
+.mari-lock:before {
+  content: "\ed1d";
+}
+.mari-unlocked:before {
+  content: "\ed1e";
+}
+.mari-wrench:before {
+  content: "\ed1f";
+}
+.mari-equalizer:before {
+  content: "\ed20";
+}
+.mari-equalizer2:before {
+  content: "\ed21";
+}
+.mari-cog:before {
+  content: "\ed22";
+}
+.mari-cogs:before {
+  content: "\ed23";
+}
+.mari-hammer:before {
+  content: "\ed24";
+}
+.mari-magic-wand:before {
+  content: "\ed25";
+}
+.mari-aid-kit:before {
+  content: "\ed26";
+}
+.mari-bug:before {
+  content: "\ed27";
+}
+.mari-pie-chart:before {
+  content: "\ed28";
+}
+.mari-stats-dots:before {
+  content: "\ed29";
+}
+.mari-stats-bars:before {
+  content: "\ed2a";
+}
+.mari-stats-bars2:before {
+  content: "\ed2b";
+}
+.mari-trophy:before {
+  content: "\ed2c";
+}
+.mari-gift:before {
+  content: "\ed2d";
+}
+.mari-glass:before {
+  content: "\ed2e";
+}
+.mari-glass2:before {
+  content: "\ed2f";
+}
+.mari-mug:before {
+  content: "\ed30";
+}
+.mari-spoon-knife:before {
+  content: "\ed31";
+}
+.mari-leaf:before {
+  content: "\ed32";
+}
+.mari-rocket:before {
+  content: "\ed33";
+}
+.mari-meter:before {
+  content: "\ed34";
+}
+.mari-meter2:before {
+  content: "\ed35";
+}
+.mari-hammer2:before {
+  content: "\ed36";
+}
+.mari-fire:before {
+  content: "\ed37";
+}
+.mari-lab:before {
+  content: "\ed38";
+}
+.mari-magnet:before {
+  content: "\ed39";
+}
+.mari-bin:before {
+  content: "\ed3a";
+}
+.mari-bin2:before {
+  content: "\ed3b";
+}
+.mari-briefcase:before {
+  content: "\ed3c";
+}
+.mari-airplane:before {
+  content: "\ed3d";
+}
+.mari-truck:before {
+  content: "\ed3e";
+}
+.mari-road:before {
+  content: "\ed3f";
+}
+.mari-accessibility:before {
+  content: "\ed40";
+}
+.mari-target:before {
+  content: "\ed41";
+}
+.mari-shield:before {
+  content: "\ed42";
+}
+.mari-power:before {
+  content: "\ed43";
+}
+.mari-switch:before {
+  content: "\ed44";
+}
+.mari-power-cord:before {
+  content: "\ed45";
+}
+.mari-clipboard:before {
+  content: "\ed46";
+}
+.mari-list-numbered:before {
+  content: "\ed47";
+}
+.mari-list:before {
+  content: "\ed48";
+}
+.mari-list2:before {
+  content: "\ed49";
+}
+.mari-tree:before {
+  content: "\ed4a";
+}
+.mari-menu:before {
+  content: "\ed4b";
+}
+.mari-menu2:before {
+  content: "\ed4c";
+}
+.mari-menu3:before {
+  content: "\ed4d";
+}
+.mari-menu4:before {
+  content: "\ed4e";
+}
+.mari-cloud:before {
+  content: "\ed4f";
+}
+.mari-cloud-download:before {
+  content: "\ed50";
+}
+.mari-cloud-upload:before {
+  content: "\ed51";
+}
+.mari-cloud-check:before {
+  content: "\ed52";
+}
+.mari-download2:before {
+  content: "\ed53";
+}
+.mari-upload2:before {
+  content: "\ed54";
+}
+.mari-download3:before {
+  content: "\ed55";
+}
+.mari-upload3:before {
+  content: "\ed56";
+}
+.mari-sphere:before {
+  content: "\ed57";
+}
+.mari-earth:before {
+  content: "\ed58";
+}
+.mari-link:before {
+  content: "\ed59";
+}
+.mari-flag:before {
+  content: "\ed5a";
+}
+.mari-attachment:before {
+  content: "\ed5b";
+}
+.mari-eye:before {
+  content: "\ed5c";
+}
+.mari-eye-plus:before {
+  content: "\ed5d";
+}
+.mari-eye-minus:before {
+  content: "\ed5e";
+}
+.mari-eye-blocked:before {
+  content: "\ed5f";
+}
+.mari-bookmark:before {
+  content: "\ed60";
+}
+.mari-bookmarks:before {
+  content: "\ed61";
+}
+.mari-sun:before {
+  content: "\ed62";
+}
+.mari-contrast:before {
+  content: "\ed63";
+}
+.mari-brightness-contrast:before {
+  content: "\ed64";
+}
+.mari-star-empty:before {
+  content: "\ed65";
+}
+.mari-star-half:before {
+  content: "\ed66";
+}
+.mari-star-full:before {
+  content: "\ed67";
+}
+.mari-heart:before {
+  content: "\ed68";
+}
+.mari-heart-broken:before {
+  content: "\ed69";
+}
+.mari-man:before {
+  content: "\ed6a";
+}
+.mari-woman:before {
+  content: "\ed6b";
+}
+.mari-man-woman:before {
+  content: "\ed6c";
+}
+.mari-happy:before {
+  content: "\ed6d";
+}
+.mari-happy2:before {
+  content: "\ed6e";
+}
+.mari-smile:before {
+  content: "\ed6f";
+}
+.mari-smile2:before {
+  content: "\ed70";
+}
+.mari-tongue:before {
+  content: "\ed71";
+}
+.mari-tongue2:before {
+  content: "\ed72";
+}
+.mari-sad:before {
+  content: "\ed73";
+}
+.mari-sad2:before {
+  content: "\ed74";
+}
+.mari-wink:before {
+  content: "\ed75";
+}
+.mari-wink2:before {
+  content: "\ed76";
+}
+.mari-grin:before {
+  content: "\ed77";
+}
+.mari-grin2:before {
+  content: "\ed78";
+}
+.mari-cool:before {
+  content: "\ed79";
+}
+.mari-cool2:before {
+  content: "\ed7a";
+}
+.mari-angry:before {
+  content: "\ed7b";
+}
+.mari-angry2:before {
+  content: "\ed7c";
+}
+.mari-evil:before {
+  content: "\ed7d";
+}
+.mari-evil2:before {
+  content: "\ed7e";
+}
+.mari-shocked:before {
+  content: "\ed7f";
+}
+.mari-shocked2:before {
+  content: "\ed80";
+}
+.mari-baffled:before {
+  content: "\ed81";
+}
+.mari-baffled2:before {
+  content: "\ed82";
+}
+.mari-confused:before {
+  content: "\ed83";
+}
+.mari-confused2:before {
+  content: "\ed84";
+}
+.mari-neutral:before {
+  content: "\ed85";
+}
+.mari-neutral2:before {
+  content: "\ed86";
+}
+.mari-hipster:before {
+  content: "\ed87";
+}
+.mari-hipster2:before {
+  content: "\ed88";
+}
+.mari-wondering:before {
+  content: "\ed89";
+}
+.mari-wondering2:before {
+  content: "\ed8a";
+}
+.mari-sleepy:before {
+  content: "\ed8b";
+}
+.mari-sleepy2:before {
+  content: "\ed8c";
+}
+.mari-frustrated:before {
+  content: "\ed8d";
+}
+.mari-frustrated2:before {
+  content: "\ed8e";
+}
+.mari-crying:before {
+  content: "\ed8f";
+}
+.mari-crying2:before {
+  content: "\ed90";
+}
+.mari-point-up:before {
+  content: "\ed91";
+}
+.mari-point-right:before {
+  content: "\ed92";
+}
+.mari-point-down:before {
+  content: "\ed93";
+}
+.mari-point-left:before {
+  content: "\ed94";
+}
+.mari-warning:before {
+  content: "\ed95";
+}
+.mari-notification:before {
+  content: "\ed96";
+}
+.mari-question:before {
+  content: "\ed97";
+}
+.mari-plus:before {
+  content: "\ed98";
+}
+.mari-minus:before {
+  content: "\ed99";
+}
+.mari-info:before {
+  content: "\ed9a";
+}
+.mari-cancel-circle:before {
+  content: "\ed9b";
+}
+.mari-blocked:before {
+  content: "\ed9c";
+}
+.mari-cross:before {
+  content: "\ed9d";
+}
+.mari-checkmark:before {
+  content: "\ed9e";
+}
+.mari-checkmark2:before {
+  content: "\ed9f";
+}
+.mari-spell-check:before {
+  content: "\eda0";
+}
+.mari-enter:before {
+  content: "\eda1";
+}
+.mari-exit:before {
+  content: "\eda2";
+}
+.mari-play2:before {
+  content: "\eda3";
+}
+.mari-pause:before {
+  content: "\eda4";
+}
+.mari-stop:before {
+  content: "\eda5";
+}
+.mari-previous:before {
+  content: "\eda6";
+}
+.mari-next:before {
+  content: "\eda7";
+}
+.mari-backward:before {
+  content: "\eda8";
+}
+.mari-forward2:before {
+  content: "\eda9";
+}
+.mari-play3:before {
+  content: "\edaa";
+}
+.mari-pause2:before {
+  content: "\edab";
+}
+.mari-stop2:before {
+  content: "\edac";
+}
+.mari-backward2:before {
+  content: "\edad";
+}
+.mari-forward3:before {
+  content: "\edae";
+}
+.mari-first:before {
+  content: "\edaf";
+}
+.mari-last:before {
+  content: "\edb0";
+}
+.mari-previous2:before {
+  content: "\edb1";
+}
+.mari-next2:before {
+  content: "\edb2";
+}
+.mari-eject:before {
+  content: "\edb3";
+}
+.mari-volume-high:before {
+  content: "\edb4";
+}
+.mari-volume-medium:before {
+  content: "\edb5";
+}
+.mari-volume-low:before {
+  content: "\edb6";
+}
+.mari-volume-mute:before {
+  content: "\edb7";
+}
+.mari-volume-mute2:before {
+  content: "\edb8";
+}
+.mari-volume-increase:before {
+  content: "\edb9";
+}
+.mari-volume-decrease:before {
+  content: "\edba";
+}
+.mari-loop:before {
+  content: "\edbb";
+}
+.mari-loop2:before {
+  content: "\edbc";
+}
+.mari-infinite:before {
+  content: "\edbd";
+}
+.mari-shuffle:before {
+  content: "\edbe";
+}
+.mari-arrow-up-left:before {
+  content: "\edbf";
+}
+.mari-arrow-up:before {
+  content: "\edc0";
+}
+.mari-arrow-up-right:before {
+  content: "\edc1";
+}
+.mari-arrow-right:before {
+  content: "\edc2";
+}
+.mari-arrow-down-right:before {
+  content: "\edc3";
+}
+.mari-arrow-down:before {
+  content: "\edc4";
+}
+.mari-arrow-down-left:before {
+  content: "\edc5";
+}
+.mari-arrow-left:before {
+  content: "\edc6";
+}
+.mari-arrow-up-left2:before {
+  content: "\edc7";
+}
+.mari-arrow-up2:before {
+  content: "\edc8";
+}
+.mari-arrow-up-right2:before {
+  content: "\edc9";
+}
+.mari-arrow-right2:before {
+  content: "\edca";
+}
+.mari-arrow-down-right2:before {
+  content: "\edcb";
+}
+.mari-arrow-down2:before {
+  content: "\edcc";
+}
+.mari-arrow-down-left2:before {
+  content: "\edcd";
+}
+.mari-arrow-left2:before {
+  content: "\edce";
+}
+.mari-circle-up:before {
+  content: "\edcf";
+}
+.mari-circle-right:before {
+  content: "\edd0";
+}
+.mari-circle-down:before {
+  content: "\edd1";
+}
+.mari-circle-left:before {
+  content: "\edd2";
+}
+.mari-tab:before {
+  content: "\edd3";
+}
+.mari-move-up:before {
+  content: "\edd4";
+}
+.mari-move-down:before {
+  content: "\edd5";
+}
+.mari-sort-alpha-asc:before {
+  content: "\edd6";
+}
+.mari-sort-alpha-desc:before {
+  content: "\edd7";
+}
+.mari-sort-numeric-asc:before {
+  content: "\edd8";
+}
+.mari-sort-numberic-desc:before {
+  content: "\edd9";
+}
+.mari-sort-amount-asc:before {
+  content: "\edda";
+}
+.mari-sort-amount-desc:before {
+  content: "\eddb";
+}
+.mari-command:before {
+  content: "\eddc";
+}
+.mari-shift:before {
+  content: "\eddd";
+}
+.mari-ctrl:before {
+  content: "\edde";
+}
+.mari-opt:before {
+  content: "\eddf";
+}
+.mari-checkbox-checked:before {
+  content: "\ede0";
+}
+.mari-checkbox-unchecked:before {
+  content: "\ede1";
+}
+.mari-radio-checked:before {
+  content: "\ede2";
+}
+.mari-radio-checked2:before {
+  content: "\ede3";
+}
+.mari-radio-unchecked:before {
+  content: "\ede4";
+}
+.mari-crop:before {
+  content: "\ede5";
+}
+.mari-make-group:before {
+  content: "\ede6";
+}
+.mari-ungroup:before {
+  content: "\ede7";
+}
+.mari-scissors:before {
+  content: "\ede8";
+}
+.mari-filter:before {
+  content: "\ede9";
+}
+.mari-font:before {
+  content: "\edea";
+}
+.mari-ligature:before {
+  content: "\edeb";
+}
+.mari-ligature2:before {
+  content: "\edec";
+}
+.mari-text-height:before {
+  content: "\eded";
+}
+.mari-text-width:before {
+  content: "\edee";
+}
+.mari-font-size:before {
+  content: "\edef";
+}
+.mari-bold:before {
+  content: "\edf0";
+}
+.mari-underline:before {
+  content: "\edf1";
+}
+.mari-italic:before {
+  content: "\edf2";
+}
+.mari-strikethrough:before {
+  content: "\edf3";
+}
+.mari-omega:before {
+  content: "\edf4";
+}
+.mari-sigma:before {
+  content: "\edf5";
+}
+.mari-page-break:before {
+  content: "\edf6";
+}
+.mari-superscript:before {
+  content: "\edf7";
+}
+.mari-subscript:before {
+  content: "\edf8";
+}
+.mari-superscript2:before {
+  content: "\edf9";
+}
+.mari-subscript2:before {
+  content: "\edfa";
+}
+.mari-text-color:before {
+  content: "\edfb";
+}
+.mari-pagebreak:before {
+  content: "\edfc";
+}
+.mari-clear-formatting:before {
+  content: "\edfd";
+}
+.mari-table:before {
+  content: "\edfe";
+}
+.mari-table2:before {
+  content: "\edff";
+}
+.mari-insert-template:before {
+  content: "\ee00";
+}
+.mari-pilcrow:before {
+  content: "\ee01";
+}
+.mari-ltr:before {
+  content: "\ee02";
+}
+.mari-rtl:before {
+  content: "\ee03";
+}
+.mari-section:before {
+  content: "\ee04";
+}
+.mari-paragraph-left:before {
+  content: "\ee05";
+}
+.mari-paragraph-center:before {
+  content: "\ee06";
+}
+.mari-paragraph-right:before {
+  content: "\ee07";
+}
+.mari-paragraph-justify:before {
+  content: "\ee08";
+}
+.mari-indent-increase:before {
+  content: "\ee09";
+}
+.mari-indent-decrease:before {
+  content: "\ee0a";
+}
+.mari-share:before {
+  content: "\ee0b";
+}
+.mari-new-tab:before {
+  content: "\ee0c";
+}
+.mari-embed:before {
+  content: "\ee0d";
+}
+.mari-embed2:before {
+  content: "\ee0e";
+}
+.mari-terminal:before {
+  content: "\ee0f";
+}
+.mari-share2:before {
+  content: "\ee10";
+}
+.mari-mail:before {
+  content: "\ee11";
+}
+.mari-mail2:before {
+  content: "\ee12";
+}
+.mari-mail3:before {
+  content: "\ee13";
+}
+.mari-mail4:before {
+  content: "\ee14";
+}
+.mari-amazon:before {
+  content: "\ee15";
+}
+.mari-google:before {
+  content: "\ee16";
+}
+.mari-google2:before {
+  content: "\ee17";
+}
+.mari-google3:before {
+  content: "\ee18";
+}
+.mari-google-plus:before {
+  content: "\ee19";
+}
+.mari-google-plus2:before {
+  content: "\ee1a";
+}
+.mari-google-plus3:before {
+  content: "\ee1b";
+}
+.mari-hangouts:before {
+  content: "\ee1c";
+}
+.mari-google-drive:before {
+  content: "\ee1d";
+}
+.mari-facebook:before {
+  content: "\ee1e";
+}
+.mari-facebook2:before {
+  content: "\ee1f";
+}
+.mari-instagram:before {
+  content: "\ee20";
+}
+.mari-whatsapp:before {
+  content: "\ee21";
+}
+.mari-spotify:before {
+  content: "\ee22";
+}
+.mari-telegram:before {
+  content: "\ee23";
+}
+.mari-twitter:before {
+  content: "\ee24";
+}
+.mari-vine:before {
+  content: "\ee25";
+}
+.mari-vk:before {
+  content: "\ee26";
+}
+.mari-renren:before {
+  content: "\ee27";
+}
+.mari-sina-weibo:before {
+  content: "\ee28";
+}
+.mari-rss:before {
+  content: "\ee29";
+}
+.mari-rss2:before {
+  content: "\ee2a";
+}
+.mari-youtube:before {
+  content: "\ee2b";
+}
+.mari-youtube2:before {
+  content: "\ee2c";
+}
+.mari-twitch:before {
+  content: "\ee2d";
+}
+.mari-vimeo:before {
+  content: "\ee2e";
+}
+.mari-vimeo2:before {
+  content: "\ee2f";
+}
+.mari-lanyrd:before {
+  content: "\ee30";
+}
+.mari-flickr:before {
+  content: "\ee31";
+}
+.mari-flickr2:before {
+  content: "\ee32";
+}
+.mari-flickr3:before {
+  content: "\ee33";
+}
+.mari-flickr4:before {
+  content: "\ee34";
+}
+.mari-dribbble:before {
+  content: "\ee35";
+}
+.mari-behance:before {
+  content: "\ee36";
+}
+.mari-behance2:before {
+  content: "\ee37";
+}
+.mari-deviantart:before {
+  content: "\ee38";
+}
+.mari-500px:before {
+  content: "\ee39";
+}
+.mari-steam:before {
+  content: "\ee3a";
+}
+.mari-steam2:before {
+  content: "\ee3b";
+}
+.mari-dropbox:before {
+  content: "\ee3c";
+}
+.mari-onedrive:before {
+  content: "\ee3d";
+}
+.mari-github:before {
+  content: "\ee3e";
+}
+.mari-npm:before {
+  content: "\ee3f";
+}
+.mari-basecamp:before {
+  content: "\ee40";
+}
+.mari-trello:before {
+  content: "\ee41";
+}
+.mari-wordpress:before {
+  content: "\ee42";
+}
+.mari-joomla:before {
+  content: "\ee43";
+}
+.mari-ello:before {
+  content: "\ee44";
+}
+.mari-blogger:before {
+  content: "\ee45";
+}
+.mari-blogger2:before {
+  content: "\ee46";
+}
+.mari-tumblr:before {
+  content: "\ee47";
+}
+.mari-tumblr2:before {
+  content: "\ee48";
+}
+.mari-yahoo:before {
+  content: "\ee49";
+}
+.mari-yahoo2:before {
+  content: "\ee4a";
+}
+.mari-tux:before {
+  content: "\ee4b";
+}
+.mari-appleinc:before {
+  content: "\ee4c";
+}
+.mari-finder:before {
+  content: "\ee4d";
+}
+.mari-android:before {
+  content: "\ee4e";
+}
+.mari-windows:before {
+  content: "\ee4f";
+}
+.mari-windows8:before {
+  content: "\ee50";
+}
+.mari-soundcloud:before {
+  content: "\ee51";
+}
+.mari-soundcloud2:before {
+  content: "\ee52";
+}
+.mari-skype:before {
+  content: "\ee53";
+}
+.mari-reddit:before {
+  content: "\ee54";
+}
+.mari-hackernews:before {
+  content: "\ee55";
+}
+.mari-wikipedia:before {
+  content: "\ee56";
+}
+.mari-linkedin:before {
+  content: "\ee57";
+}
+.mari-linkedin2:before {
+  content: "\ee58";
+}
+.mari-lastfm:before {
+  content: "\ee59";
+}
+.mari-lastfm2:before {
+  content: "\ee5a";
+}
+.mari-delicious:before {
+  content: "\ee5b";
+}
+.mari-stumbleupon:before {
+  content: "\ee5c";
+}
+.mari-stumbleupon2:before {
+  content: "\ee5d";
+}
+.mari-stackoverflow:before {
+  content: "\ee5e";
+}
+.mari-pinterest:before {
+  content: "\ee5f";
+}
+.mari-pinterest2:before {
+  content: "\ee60";
+}
+.mari-xing:before {
+  content: "\ee61";
+}
+.mari-xing2:before {
+  content: "\ee62";
+}
+.mari-flattr:before {
+  content: "\ee63";
+}
+.mari-foursquare:before {
+  content: "\ee64";
+}
+.mari-yelp:before {
+  content: "\ee65";
+}
+.mari-paypal:before {
+  content: "\ee66";
+}
+.mari-chrome:before {
+  content: "\ee67";
+}
+.mari-firefox:before {
+  content: "\ee68";
+}
+.mari-IE:before {
+  content: "\ee69";
+}
+.mari-edge:before {
+  content: "\ee6a";
+}
+.mari-safari:before {
+  content: "\ee6b";
+}
+.mari-opera:before {
+  content: "\ee6c";
+}
+.mari-file-pdf:before {
+  content: "\ee6d";
+}
+.mari-file-openoffice:before {
+  content: "\ee6e";
+}
+.mari-file-word:before {
+  content: "\ee6f";
+}
+.mari-file-excel:before {
+  content: "\ee70";
+}
+.mari-libreoffice:before {
+  content: "\ee71";
+}
+.mari-html-five:before {
+  content: "\ee72";
+}
+.mari-html-five2:before {
+  content: "\ee73";
+}
+.mari-css3:before {
+  content: "\ee74";
+}
+.mari-git:before {
+  content: "\ee75";
+}
+.mari-codepen:before {
+  content: "\ee76";
+}
+.mari-svg:before {
+  content: "\ee77";
+}
+.mari-IcoMoon:before {
+  content: "\ee78";
+}
