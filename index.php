@@ -2,6 +2,8 @@
 
 // meu codigo php vem aqui
 
+//MARIA MARIAAAAAAAAA!!!!!!
+
 $pg = isset($_GET['pg']);
 if ($pg) {
 //verdadeiro
